@@ -1,0 +1,316 @@
+@media screen and (max-width:1023px) {
+    .header-gnav-item:not(:last-child) {
+        margin-right: 20px;
+    }
+    .fv-copy, .lv-copy {
+        font-size: 26px;
+    }
+    .fv-picture {
+        width: 52.6%;
+    }
+    .logo-box {
+        text-align: center;
+    }
+    .footer {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .header {
+        height: 75px;
+    }
+    .header-container {
+        padding: 0 20px;
+    }
+    .header-logo {
+        width: 100px;
+        padding-bottom: 0px;
+    }
+    .header-gnav {
+        display: none;
+    }
+    .header-gnav-btn {
+        display: block;
+    }
+    .header-gnav-btn {
+        display: block;
+        width: 30px;
+        height: 100%;
+        position: relative;
+    }
+    .header-gnav-bar {
+        position: absolute;
+        left: 0;
+        top: calc(50% - 4px);
+        width: 100%;
+        height: 3px;
+        background-color: #000000;
+    }
+    .header-gnav-bar.m-top {
+        transform: translateY(-10px);
+        width: 73%;
+    }
+    .header-gnav-bar.m-bottom {
+        transform: translateY(10px);
+        width: 74%;
+    }
+    .fv {
+        /* height: 706px; */
+        background-size: inherit;
+        margin-bottom: 47px;
+        padding-bottom: 121px;
+        background-size: 296% auto;
+    }
+    .fv .container1 {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .fv-copy {
+        font-size: 25px;
+    }
+    .fv-left {
+        width: 100%;
+        padding: 30px 0 60px;
+    }
+    .fv-picture {
+        width: 100%;
+    }
+    .fv-box {
+        display: block;
+    }
+    .fv-text {
+        font-size: 15px;
+    }
+    .scrolldown {
+        left: 47%;
+        letter-spacing: 3px;
+    }
+    .scrolldown::after {
+        top: 62px;
+        left: 11px;
+    }
+    .scrolldown span {
+        top: 38px;
+    }
+    .about .container1, .feature .container2, .faq .container2, .lv .container2 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .about .section-text, .faq .section-text, .section-subsitle {
+        font-size: 20px;
+    }
+    .about-box {
+        flex-direction: column-reverse;
+    }
+    .about-picture {
+        width: 67%;
+        margin: 0 auto;
+    }
+    .about-body {
+        width: 100%;
+    }
+    .about-picture2 {
+        display: none;
+    }
+    .about-discription {
+        margin-bottom: 40px;
+        padding-top: 12px;
+    }
+    .feature {
+        padding-bottom: 119px;
+    }
+    .feature-box {
+        display: block;
+    }
+    .feature .feature-picture {
+        width: 83.5%;
+        margin: 0 auto;
+        margin-bottom: 9px;
+    }
+    .feature-body-right, .feature-body-left {
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+    .feature-box-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .feature-discription, .feature-discription-04 {
+        margin-bottom: 0;
+    }
+    .feature-discription-04 {
+        line-height: 1.7;
+    }
+    .feature-box:not(:last-child) {
+        margin-bottom: 70px;
+    }
+    .feature .section-subsitle {
+        font-size: 20px;
+        margin-bottom: 11px;
+        padding-left: 4px;
+        line-height: 1.7;
+    }
+    .number {
+        font-size: 30px;
+    }
+    .section-title-container {
+        margin-bottom: 56px;
+    }
+    .section-title {
+        margin-bottom: 10px;
+    }
+    .faq {
+        padding-bottom: 122px;
+    }
+    .faq-section-title-container {
+        margin-bottom: 49px;
+    }
+    .faq-box-container {
+        margin: 0 auto;
+        width: 99.5%;
+    }
+    .faq .section-subsitle {
+        line-height: 1.6;
+    }
+    .faq-text {
+        font-size: 15px;
+    }
+    .faq-box1 .question {
+        padding-bottom: 21px;
+    }
+    .faq .section-title.m-about {
+        padding-right: 10px;
+    }
+    .circle {
+        width: 45px;
+        height: 45px;
+        font-size: 20px;
+        line-height: 43px;
+        margin-right: 10px;
+        position: relative;
+    }
+    .answer .circle {
+        top: -14px;
+    }
+    .op_plus {
+        width: 23px;
+    }
+    .op_plus-negative:after {
+        width: 20px;
+        top: 10px;
+        left: -2px;
+    }
+    .op_plus::before {
+        height: 20px;
+        top: 4px;
+    }
+    .op_plus:after {
+        left: 4px;
+        width: 20px;
+    }
+    .question p {
+        font-size: 15px;
+        width: 83%;
+    }
+    .answer p {
+        font-size: 15px;
+        width: 230px;
+    }
+    .collabolation {
+        padding-bottom: 90px;
+    }
+    .collabolation-container {
+        display: block;
+        top: 100px;
+        padding-right: 47px;
+        padding-left: 47px;
+    }
+    .background-color {
+        height: 632px;
+    }
+    .collabolation .section-text .section-subsitle {
+        font-size: 20px;
+    }
+    .section-text {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 9px;
+    }
+    .logo-box {
+        height: unset;
+        width: 280px;
+        margin: 0 auto;
+    }
+    .logo-box p {
+        padding-bottom: 30px;
+        padding-left: 1px;
+    }
+    .logo-box:not(:last-child) {
+        width: 280px;
+        margin: 0 auto;
+    }
+    .logo-image.slack {
+        margin: 56px auto 15px;
+    }
+    .logo-image.microsoft {
+        margin: 47px auto 15px;
+    }
+    .logo-image.googlesheets {
+        margin: 47px auto 15px;
+        text-align: center;
+    }
+    .lv-left {
+        width: 100%;
+        padding-top: 31px;
+        padding-bottom: 66px;
+    }
+    .lv-copy {
+        margin-right: 0;
+        margin-bottom: 12px;
+        letter-spacing: 0.08em;
+    }
+    .lv-copy p {
+        letter-spacing: 0.06em;
+    }
+    .lv-picture {
+        width: 100%;
+    }
+    .lv-logo {
+        width: 81%;
+        margin-left: 24px;
+    }
+    .footer {
+        padding-right: 40px;
+        padding-left: 40px;
+        padding: 30px 0 14px;
+    }
+    .footer-list1, .footer-list2 {
+        display: block;
+    }
+    .footer-list1 {
+        margin-bottom: 0;
+    }
+    .footer-copyright {
+        text-align: center;
+    }
+    .line {
+        display: none;
+    }
+    .footer-menu-container {
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 103px;
+    }
+    .footer-menu-item {
+        display: block;
+        padding: 8px 0;
+        padding-left: 6px;
+    }
+    .footer-menu-item a {
+        font-size: 13px;
+        letter-spacing: 0.49em;
+    }
+}
